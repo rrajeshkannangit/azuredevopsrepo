@@ -18,7 +18,7 @@
 					"source": {
 						"type": "SqlSource",
 						"sqlReaderQuery": {
-							"value": "select @{pipeline().parameters.Control_Table_Column_Name} as WatermarkValue from @{pipeline().parameters.Control_Table_Table_Name}",
+							"value": "select @{pipeline().parameters.Control_Table_Column_Name} as OldWatermarkValue from @{pipeline().parameters.Control_Table_Table_Name}",
 							"type": "Expression"
 						},
 						"partitionOption": "None"
