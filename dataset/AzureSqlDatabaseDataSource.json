@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabaseDataSource",
+	"properties": {
+		"description": "Connection to your source data store.",
+		"linkedServiceName": {
+			"referenceName": "rrazuresqlserver_practise",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DataSourceTable"
+		}
+	}
+}
