@@ -1,0 +1,16 @@
+{
+	"name": "SourceDataset_v3o",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "rrazuresqlserver_practise",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SALES_DATA"
+		}
+	}
+}
